@@ -3,4 +3,6 @@ name: wordpress
 description: my sample wordpress app
 artifacts:
 - name: wordpress-application
-	content: href:
+	content: href: https://github.com/kebray/wordpress.git
+	languagepack: kb_php_lp
+	run_cmd: php -S 0.0.0.0:80 -t /code
