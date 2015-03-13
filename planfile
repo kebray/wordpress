@@ -5,4 +5,5 @@ artifacts:
 - name: wordpress-application
 	content: href: https://github.com/kebray/wordpress.git
 	languagepack: kb_php_lp
-	run_cmd: php -S 0.0.0.0:80 -t /code
+	run_cmd: php -S 0.0.0.0:80 -t 
+	ports: 80
